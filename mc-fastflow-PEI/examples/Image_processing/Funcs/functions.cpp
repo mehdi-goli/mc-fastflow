@@ -34,8 +34,8 @@
  ****************************************************************************
  Mehdi Goli: m.goli@rgu.ac.uk*/
 
-#include "ff/ocl/OpenCL_Requirement.hpp"
-#include "examples/Image_processing/Funcs/SDKBitMap.hpp"
+#include <ff/ocl/OpenCL_Requirement.hpp>
+#include <examples/Image_processing/Funcs/SDKBitMap.hpp>
 #include <malloc.h>
 #include <iostream>
 #include <sstream>
