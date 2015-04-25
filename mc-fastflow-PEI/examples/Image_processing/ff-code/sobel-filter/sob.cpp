@@ -33,7 +33,7 @@
  *
  ****************************************************************************
  Mehdi Goli: m.goli@rgu.ac.uk*/
-#include <examples/Image_processing/Funcs/functions.cpp>
+#include "examples/Image_processing/Funcs/functions.cpp"
 #include <ff/PEI/DSRIManagerNode.hpp>
 #if defined(FASTFLOW_OPENCL)
 	#include <ff/oclnode.hpp>
