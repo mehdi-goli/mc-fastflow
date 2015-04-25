@@ -24,11 +24,11 @@
 # ---------------------------------------------------------------------------
 CXX      	     = g++ 
 CXXFLAGS 	     =
-FF_ROOT  	     = ../../..
-ZMQ_ROOT	     =/users/mehdi/local
+FF_ROOT  	     = ../../.. # add your own fastflow root
+ZMQ_ROOT	     =/users/mehdi/local # add your zmq library root
 
 #Non-standard OpenCL Location
-OCL_ROOT 	     = /opt/gridware/libs/amd-opencl/2.8
+OCL_ROOT 	     = /opt/gridware/libs/amd-opencl/2.8 # add your own openCL root
 OCLFLAGS 	     = -DFASTFLOW_OPENCL
 OPTFLAGS 	     = -g -finline-functions
 LDFLAGS  	     = -L$(ZMQ_ROOT)/lib/ -L$(OCL_ROOT)/lib/x86_64
